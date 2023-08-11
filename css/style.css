@@ -469,23 +469,26 @@ background-color: #000000;
 .contact_form{
     margin-top: 40px;
 }
-.contact_form input{
-    width: 90% !important;
-    border-radius: 7px;
-    background: #0F1113;
-    box-shadow: 0px 4px 16px 8px rgba(0, 115, 198, 0.23);
-    padding: 0px 22px;
-    color: rgba(255, 255, 255, 0.81);
-    font-family: Montserrat;
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    line-height: 150.4%; /* 33.088px */
-    letter-spacing: 0.22px;
-    height: 60px;
-    text-align: end;
-    border-right: 8px solid #0E3869;
-    margin-top: 29px;
+.contact_form input {
+	width: 90% !important;
+	border-radius: 7px;
+	background: #0F1113;
+	box-shadow: 0px 4px 16px 8px rgba(0, 115, 198, 0.23);
+	padding: 0px 22px;
+	color: rgba(255, 255, 255, 0.81);
+	font-family: Montserrat;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	line-height: 150.4%;
+	letter-spacing: 0.22px;
+	height: 60px;
+	text-align: end;
+    border: none;
+	border-right: 8px solid #0E3869;
+	margin-top: 29px;
+	/* cursor: none; */
+	pointer-events: none;
 }
 .contact_form button{
     background: transparent;
@@ -824,4 +827,18 @@ padding-bottom: 200px;
 
 textarea:focus, input:focus{
     outline: none;
+}
+
+
+
+
+
+.nav_fix {
+	height: 109px;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+.my_btn.active{
+    color: #ffffff !important;
 }
